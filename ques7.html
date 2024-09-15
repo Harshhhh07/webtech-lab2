@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .portfolio-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .gallery {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        .photo {
+            flex: 1;
+            text-align: center;
+        }
+        .photo img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .caption {
+            margin-top: 10px;
+            font-size: 18px;
+            color: #333;
+        }
+        .details-link {
+            display: inline-block;
+            margin-top: 5px;
+            font-size: 16px;
+            color: #0066cc;
+            text-decoration: none;
+        }
+        .details-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="portfolio-container">
+        <h1>Photography Portfolio</h1>
+        
+        <div class="gallery">
+            <div class="photo">
+                <img src="photo1.jpg" alt="Mountain Landscape">
+                <div class="caption">Mountain Landscape</div>
+                <a href="photo1-details.html" class="details-link">View Details</a>
+            </div>
+            
+            <div class="photo">
+                <img src="photo2.jpg" alt="City Skyline at Night">
+                <div class="caption">City Skyline at Night</div>
+                <a href="photo2-details.html" class="details-link">View Details</a>
+            </div>
+            
+            <div class="photo">
+                <img src="photo3.jpg" alt="Sunset Over the Ocean">
+                <div class="caption">Sunset Over the Ocean</div>
+                <a href="photo3-details.html" class="details-link">View Details</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
